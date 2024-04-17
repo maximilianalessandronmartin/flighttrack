@@ -1,0 +1,18 @@
+.waypoint {
+
+}
+
+.info{
+    min-width: 350px;
+}
+
+.hover {
+    background: rgba(65, 105, 225, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.hover:hover {
+    background: #4169e1;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 10px 0 rgba(0, 0, 0, 0.12);
+}
