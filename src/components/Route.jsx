@@ -49,7 +49,7 @@ const Route = ({waypoints, handleRemove, handleMoveUp, handleMoveDown}) => {
                         <td key={index}>
                             <Trash
                                 cursor={"pointer"}
-                                className={"pointer"}
+                                className={"pointer neutral-hover"}
                                 style={{fontSize: "30px"}}
                                 onClick={() => handleRemove(index)}>
                                 Remove</Trash>

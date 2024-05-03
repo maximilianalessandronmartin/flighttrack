@@ -6,13 +6,25 @@
     min-width: 350px;
 }
 
+
+.neutral-hover {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.neutral-hover:hover {
+    background: lightgray;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
 .hover {
-    background: rgba(65, 105, 225, 0.9);
+    background: rgb(11, 93, 214);
     border-radius: 5px;
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .hover:hover {
-    background: #4169e1;
+    background: rgb(13, 110, 253);
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 10px 0 rgba(0, 0, 0, 0.12);
 }
