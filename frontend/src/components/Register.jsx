@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import Form from "react-validation/build/form";
 import Input from "react-validation/build/input";
 import CheckButton from "react-validation/build/button";
-import AuthService from "/src/services/auth.service";
+import AuthService from "../services/auth.service";
 import isEmail from "validator/es/lib/isEmail";
 
 const required = (value) => {

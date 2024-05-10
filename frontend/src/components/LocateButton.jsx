@@ -8,7 +8,7 @@ import LocationMarker from "./LocationMarker";
 const LocateButton = () => {
     const map = useMap();
 
-    const handleClick = (e) => {
+    const handleClick = () => {
         const locationMarker = new LocationMarker();
         locationMarker.addTo(map)
     }
