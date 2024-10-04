@@ -66,9 +66,6 @@ routes.get('/api/airports', [],
                 airports.push(parsedJSON[key]);
                 return obj;
             }, {});
-
-
-
         res.status(200).json(airports);
     });
 
