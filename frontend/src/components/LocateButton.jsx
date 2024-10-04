@@ -6,7 +6,7 @@ import LocationMarker from "./LocationMarker";
 
 
 const LocateButton = () => {
-    const map = useMap();
+    const map:Map = useMap();
 
     const handleClick = () => {
         const locationMarker = new LocationMarker();

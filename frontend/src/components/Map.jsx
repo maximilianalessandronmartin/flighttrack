@@ -15,7 +15,7 @@ const Map = ({waypoints, waypoint, center, zoom, bounds, lines, color, airspeed}
     const animateRef = useRef(true)
 
     function SetViewOnClick({animateRef}) {
-        const map = useMapEvent('click', (e) => {
+        const map: Map = useMapEvent('click', (e) => {
             console.log("Current zoom:", map.getZoom())
 
             map.setView(e.latlng, map.getZoom(), {

@@ -2,7 +2,7 @@
 import {useMap} from "react-leaflet";
 
 function ChangeBounds({ bounds }) {
-    const map = useMap();
+    const map:Map = useMap();
     map.fitBounds(bounds);
     return null;
 }

@@ -3,14 +3,13 @@ import React, {useEffect, useState} from "react";
 import Select from 'react-select';
 import {Button, Col, Container, Row} from "react-bootstrap";
 import Route from "./components/Route";
-import Waypoint from "./model/waypoint";
+import Waypoint from "./model/Waypoint";
 import Map from "./components/Map";
 import {latLng} from "leaflet/src/geo";
-import Login from "./components/Login";
 
 
 function App() {
-    const API_URL = "http://192.168.178.61:3000"
+    const API_URL = "http://localhost:3000"
     const [options, setOptions] = useState([]);
     const [center, setCenter] = useState([48.0426251, 9.0125809]);
     const [zoom, setZoom] = useState(8);
@@ -219,7 +218,6 @@ function App() {
             </Container>
             <Map waypoints={waypoints} waypoint={waypoint} center={center} zoom={zoom} bounds={bounds} lines={lines}
                  color={color} airspeed={airspeed}/>
-            <Login />
 
         </>
     )
