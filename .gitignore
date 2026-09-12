@@ -1,8 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-#resources map tile files
-/backend/map/ed_256@2x.mbtiles
-/backend/map/ed_256.mbtiles
+
 # dependencies
 */node_modules
 /.pnp
@@ -28,3 +26,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+#resources map tile files
+/backend/map/ed_256@2x.mbtiles
+/backend/map/ed_256.mbtiles
+/backend/map/airports.json.gz
+/backend/map/airports.json
